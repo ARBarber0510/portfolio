@@ -4,10 +4,17 @@
 }
 
 body {
-    background-color: antiquewhite;
+    background: #707b7d;
+    background: -webkit-linear-gradient(-90deg, #a2cbc2, #293f50);
+    background: -moz-linear-gradient(-90deg, #a2cbc2, #293f50);
+    background: linear-gradient(-90deg, #95bab2, #758591);
+}
+
+a {
+    color: #FFFFFF;
 }
 
 h1 {
     font-weight: bolder;
-    color: navy;
+    color: #d3d3d3;
 }
