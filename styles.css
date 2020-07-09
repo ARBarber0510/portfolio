@@ -24,29 +24,31 @@ header {
 header h1 {
     font-family: 'Libre Baskerville', serif;
     font-weight: bolder;
-    display: inline-block;
     margin-left: 20px;
+    margin-bottom: 25px;
     font-size: 48px;
 }
-
-p {
-    color: #383636;
-    margin: auto;
+span {
+    font-family: 'Libre Baskerville', serif;
 }
 
-article {
-    width: 75%;
-    display: inline-block;
+.FFVAD {
+    margin-bottom: 25px;
     margin-left: 20px;
+    max-width: 100%;
+    height: auto;
+    float: left;
+}
+
+
+article {
+    max-width: 50%;
+    height: auto;
+    display: inline-block;
     clear: both;
 }
 
 article section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-}
-
-img {
-    margin-left: 20px;
+    margin: 10px 25px 10px 20px;
+    padding: 20px;
 }
