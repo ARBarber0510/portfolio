@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Libre+Franklin:wght@100&family=Playfair+Display&family=Rozha+One&display=swap');
 * {
     font-family: 'Libre Franklin', sans-serif;
+    color: #383636;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 
 }
 
@@ -13,14 +17,36 @@ a {
     color: #FFFFFF;
 }
 
-h1 {
+header {
+    padding: 20px;
+}
+
+header h1 {
     font-family: 'Libre Baskerville', serif;
     font-weight: bolder;
-    color: #383636;
+    display: inline-block;
     margin-left: 20px;
+    font-size: 48px;
 }
 
 p {
     color: #383636;
+    margin: auto;
+}
+
+article {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    clear: both;
+}
+
+article section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+}
+
+img {
     margin-left: 20px;
 }
