@@ -17,6 +17,9 @@ a {
     color: #FFFFFF;
 }
 
+.navbar-nav {
+    justify-content: right;
+}
 
 header {
     padding: 20px;
@@ -63,3 +66,4 @@ span {
 ul li {
     color: #383636;
 }
+
