@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Libre+Franklin:wght@100&family=Playfair+Display&family=Rozha+One&display=swap');
+
 * {
     font-family: 'Libre Franklin', sans-serif;
     color: #383636;
@@ -17,49 +18,35 @@ a {
     color: #FFFFFF;
 }
 
-.navbar-nav {
-    justify-content: right;
-}
-
-header {
-    padding: 20px;
-}
-
 header h1 {
+
     font-family: 'Libre Baskerville', serif;
     font-weight: bolder;
     margin-left: 20px;
     margin-bottom: 25px;
     font-size: 48px;
-}
-span {
-    font-family: 'Libre Baskerville', serif;
-}
-
-.FFVAD {
-    margin: 25px 20px;
-    max-width: 100%;
-    height: auto;
-    float: left;
+    padding: 20px; 
 }
 
 .container {
-    padding-top: 60px;
+    padding-top: 25px;
     float: left;
-    margin: 20px 15px;
+    margin: 20px auto;
+    background-color: azure;
 }
+
 .row {
     max-width: 100%;
     height: auto;
     display: inline-block;
     clear: both;
-    box-sizing: content-box;
-    background-color: azure;
+    box-sizing: border-box;
 }
 
-.col-md-8 {
-    margin: 10px 25px 0px 20px;
-    padding: 20px;
+.FFVAD {
+    height: auto;
+    margin: 0;
+    display: inline-block;
 }
 
 
@@ -67,3 +54,51 @@ ul li {
     color: #383636;
 }
 
+@media screen and (max-width: 640px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .FFVAD {
+        max-width: 75%;
+        height: auto;
+    }
+    h1 {
+        display: fixed;
+    }
+}
+
+@media screen and (min-width: 641px) {
+    [class*="col-"] {
+        width: 100%;
+
+    }
+    .FFVAD {
+        max-width: 75%;
+        height: auto;
+    }
+}
+@media screen and (min-width: 768px) {
+    .FFVAD {
+        max-width: 100%;
+        height: auto;
+    }
+    .col-md-8 {
+        clear: both;
+        display: inline-block;
+        box-sizing: content-box;
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width: 980px) {
+    .FFVAD {
+        max-width: 100%;
+        height: auto;
+    }
+    .col-md-8 {
+        clear: both;
+        display: inline-block;
+        box-sizing: content-box;
+        margin-left: 20px;
+    }
+}
