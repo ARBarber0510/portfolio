@@ -18,7 +18,7 @@ a {
     color: #FFFFFF;
 }
 
-header h1 {
+h1 {
 
     font-family: 'Libre Baskerville', serif;
     font-weight: bolder;
@@ -29,23 +29,24 @@ header h1 {
 }
 
 .container {
+    display: inline-block;
+    justify-content: start;
     padding-top: 25px;
-    float: left;
-    margin: 20px auto;
+    margin: 20px 25px;
     background-color: azure;
 }
 
 .row {
     max-width: 100%;
+    float: left;
     height: auto;
-    display: inline-block;
     clear: both;
     box-sizing: border-box;
 }
 
 .FFVAD {
     height: auto;
-    margin: 0;
+    margin: 20px;
     display: inline-block;
 }
 
@@ -84,9 +85,6 @@ ul li {
         height: auto;
     }
     .col-md-8 {
-        clear: both;
-        display: inline-block;
-        box-sizing: content-box;
         margin-left: 0px;
     }
 }
@@ -96,9 +94,6 @@ ul li {
         height: auto;
     }
     .col-md-8 {
-        clear: both;
-        display: inline-block;
-        box-sizing: content-box;
-        margin-left: 20px;
+        margin-left: 0px;
     }
 }
