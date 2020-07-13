@@ -51,8 +51,9 @@ h1 {
 }
 
 
-ul li {
+.social-media a {
     color: #383636;
+    margin: 15px;
 }
 
 @media screen and (max-width: 640px) {
