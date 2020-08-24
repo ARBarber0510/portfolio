@@ -8,12 +8,21 @@
     margin: 0;
 
 }
-
 body {
     background: #707b7d;
     background: linear-gradient(-90deg, #cae6e0, #a6b5c1);
     height: 100%
 }
+.jumbotron {
+    color: #FAF9EF;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('Assets/Images/forest-fog.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+    margin-bottom: 0;
+}
+
 
 a {
     color: #FFFFFF;
@@ -23,6 +32,7 @@ h1 {
 
     font-family: 'Libre Baskerville', serif;
     font-weight: bolder;
+    color: #cae6e0;
     margin-left: 20px;
     margin-bottom: 25px;
     font-size: 48px;
