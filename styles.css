@@ -38,12 +38,30 @@ h1 {
     font-size: 48px;
     padding: 20px; 
 }
-
- .main-content {
-    background-color: azure;
+h2 {
+    color: #89aca4;
+    margin-left: 50px;
+    margin-bottom: 25px;
 }
 
+ .card-main-content {
+    background-color: azure;
+    margin: 50px;
 
+}
+
+#about-me-card {
+    margin-left: 50px;
+}
+
+.card-title {
+    text-align: center;
+
+}
+
+#headshot {
+    margin-left: 150px;
+}
 
 .row {
     max-width: 100%;
