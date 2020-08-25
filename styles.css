@@ -76,12 +76,21 @@ h2 {
     box-sizing: border-box;
 }
 
-.slide .inner {
-    position: relative;
+.pure-img-fluid-center {
+    margin-top: 20px;
+}
+.btn {
+    margin-bottom: 20px;
+}
+
+.overlay {
+    position: fixed;
+    display: block;
     width: 33%;
     height: 100%;
     background-color: #1e5c4d;
     opacity: 80%;
+    z-index: 2;
     padding: 5px 10px;
 }
 
