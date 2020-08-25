@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Libre+Franklin:wght@100&family=Playfair+Display&family=Rozha+One&display=swap');
-@media only screen and (max-width: 1044px) {
-    .card-text {
+@media (max-width: 1060px) {
+    .media::after{
+        content:"\a";
+    }
+    .card-text::before {
         font-size: 17px;
+        content: "\a";
     }
 }
 
 * {
     font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
     color: #383636;
     box-sizing: border-box;
     padding: 0;
