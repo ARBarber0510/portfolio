@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Libre+Franklin:wght@100&family=Playfair+Display&family=Rozha+One&display=swap');
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
+@media only screen and (max-width: 1044px) {
+    .card-text {
+        font-size: 17px;
     }
 }
-
 
 * {
     font-family: 'Libre Franklin', sans-serif;
@@ -21,6 +19,10 @@ body {
     height: 100%;
     display: block;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
 .jumbotron {
     color: #FAF9EF;
     background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('Assets/Images/forest-fog.jpg');
@@ -29,10 +31,6 @@ body {
     background-size: cover;
     height: 45vh;
     margin-bottom: 0;
-    max-width: 100%;
-    height: auto;
-}
-img {
     max-width: 100%;
     height: auto;
 }
@@ -58,40 +56,52 @@ h2 {
 }
 
  .card-main-content {
+    position: relative;
     background-color: azure;
+    align-content: center;
     margin: 50px;
     padding-bottom: 20px;
+    color: #89aca4;
+    max-width: 1200px;
+    height: auto;
 
 }
+/* .row {
+    max-width: 100%;
+    float: left;
+    clear: both;
+    box-sizing: border-box;
+} */
 
 #headshot {
     margin-left: 50px;
-}
-
-.row {
-    max-width: 100%;
     float: left;
-    height: auto;
-    clear: both;
-    box-sizing: border-box;
 }
 
-.pure-img-fluid-center {
-    margin-top: 20px;
+.text-box {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #32d8b1;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-.btn {
+.pure-img-fluid-center {
     margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .overlay {
-    position: fixed;
-    display: block;
-    width: 33%;
-    height: 100%;
-    background-color: #1e5c4d;
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    z-index: 1;
+    padding-right: 50px;
+    color: #89aca4;
     opacity: 80%;
-    z-index: 2;
-    padding: 5px 10px;
 }
 
 .unstyled-list a {
