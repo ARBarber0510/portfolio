@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Libre+Franklin:wght@100&family=Playfair+Display&family=Rozha+One&display=swap');
+
+@media (max-width: 1060px) {
+    .media::after{
+        content:"\a";
+    }
+    .card-text::before {
+        font-size: 17px;
+        content: "\a";
+    }
+}
+
+* {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+    color: #89aca4;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background: url("Assets/Images/forest-fog.jpg");
+    height: 100%;
+    display: block;
+}
+.jumbotron {
+    color: #FAF9EF;
+    background: rgba(9, 49, 48, 0.7);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 45vh;
+    margin-bottom: 0;
+    max-width: 100%;
+    height: auto;
+}
