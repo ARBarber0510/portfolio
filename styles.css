@@ -100,9 +100,25 @@ h2 {
     height: auto;
 }
 
-.unstyled-list a {
-    color: #383636;
-    margin: 15px;
+.card-deck {
+    position: relative;
+    margin: 0 auto;
+}
+
+.card-deck .card-title {
+    position: absolute;
+    bottom: 0;
+    background: rgba(14, 68, 66, 0.7);
+    width: 80%;
+    padding: 20px;
+}
+.card-deck a {
+    color: #f0ffff;
+    text-align: center;
+}
+
+form {
+    margin: 0px 20px;
 }
 
 .footer {

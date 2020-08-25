@@ -44,25 +44,24 @@
       <div class="card-body" id="contact-info">
         <h3>Find Me on Social Media</h3>
       </div>
-      <div class="card-body" id="main">
-        <div class="sites">
-          <div class="site1">
-            <h4></h4>
-            <a>
-              <img src="Assets/Images/linkedin-headshot.png">
-            </a>
+
+      <div class="card-deck" id="contact-deck">
+        <div class="card">
+          <img src="Assets/Images/linkedin-headshot.png" class="card-img-top" alt="linkedin-headshot">
+          <div class="card-body">
+            <a href="https://www.linkedin.com/in/alison-barber-b6b45444/" target="_blank" class="card-title">Linkedin</a>
           </div>
-          <div class="site2">
-            <h4></h4>
-            <a>
-              <img src="Assets/Images/instagram-headshot-1.jpg">
-            </a>
+        </div>
+        <div class="card">
+          <img src="Assets/Images/instagram-headshot-1.jpg" class="card-img-top" alt="instagram-headshot-1">
+          <div class="card-body">
+            <a href="https://www.instagram.com/alibarbershop/" target="_blank" class="card-title">Instagram</a>
           </div>
-          <div class="site3">
-            <h4></h4>
-            <a>
-              <img src="Assets/Images/twitter-headshot.jpg">
-            </a>
+        </div>
+        <div class="card">
+          <img src="Assets/Images/twitter-headshot.jpg" class="card-img-top" alt=".twitter-headshot">
+          <div class="card-body">
+            <a href="https://twitter.com/AliBarbershop" target="_blank" class="card-title">Twitter</a>
           </div>
         </div>
       </div>
@@ -71,27 +70,33 @@
         <div class="card-body" id="email-form">
           <h3>Email Me</h3>
         </div>
-        <form>
+        <form id="form">
           <div class="form-group">
-            <label for="exampleFormControlInput1"></label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <label for="name-input"> Name: </label>
+            <input type="email" class="form-control" id="name-input" placeholder="Your Name">
+          </div>
+          <div class="form-group">
+            <label for="email-input"> Email: </label>
+            <input type="email" class="form-control" id="email-input" placeholder="Your Email">
           </div>
   
           <div class="form-group">
-            <label for="exampleFormControlTextarea1"></label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-          </div>
+            <label for="email-textarea"> Message: </label>
+            <textarea class="form-control" id="email-textarea" rows="6"></textarea>
+         </div>
         </form>
 
         <div class="col-sm-6 col-md-6 col-lg-6">
-        <button type="button" class="btn btn-light">Submit</button>
+          <button type="button" onclick="submitButton()" class="btn btn-light" id="submi-btn" value="Submit">Submit</button>
         </div>
       </div>
+
+      <h5 id="response"></h5>
 
     
     </main>
 
-    <footer class="footer">
+    <footer class="footer" style="background-color: #0e4442;">
       <div class="container">
           <span class="text-light">Alison Barber</span>
       </div>
