@@ -80,14 +80,18 @@ h2 {
 .card-main-content .card-img-content {
     position: absolute;
     left: 0;
-    background: rgba(14, 68, 66, 0.5);
+    background: rgba(14, 68, 66, 0.7);
     width: 35%;
     height: 100%;
     padding: 20px;
 }
-.card-img-content h3, p {
+.card-img-content h3 {
     color: #f0ffff;
     font-weight: bold;
+}
+.card-img-content .card-text {
+    color: #f0ffff;
+    font-size: 16px;
 }
 .pure-img-fluid-center {
     margin-bottom: 20px;
