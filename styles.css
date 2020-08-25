@@ -63,34 +63,31 @@ h2 {
  .card-main-content {
     position: relative;
     background-color: azure;
-    align-content: center;
-    margin: 50px;
+    /* align-content: center; */
+    margin: 0 auto;
     padding-bottom: 20px;
     color: #89aca4;
-    max-width: 1200px;
+    max-width: 1000px;
     height: auto;
 
 }
-/* .row {
-    max-width: 100%;
-    float: left;
-    clear: both;
-    box-sizing: border-box;
-} */
 
-#headshot {
-    margin-left: 50px;
-    float: left;
+#bio {
+    color: #383636;
+    font-weight: normal;
 }
 
-.text-box {
+.card-main-content .card-img-content {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: #32d8b1;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    left: 0;
+    background: rgba(14, 68, 66, 0.5);
+    width: 25%;
+    height: 100%;
+    padding: 20px;
+}
+.card-img-content h3, p {
+    color: #f0ffff;
+    font-weight: bold;
 }
 .pure-img-fluid-center {
     margin-bottom: 20px;
@@ -99,18 +96,16 @@ h2 {
     height: auto;
 }
 
-.overlay {
-    position: absolute;
-    display: inline-block;
-    text-align: left;
-    z-index: 1;
-    padding-right: 50px;
-    color: #89aca4;
-    opacity: 80%;
-}
-
 .unstyled-list a {
     color: #383636;
     margin: 15px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
