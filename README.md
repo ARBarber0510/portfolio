@@ -8,18 +8,18 @@ Deployed link: https://arbarber0510.github.io/portfolio/
 
 ## Application Screenshots
 ### Landing Page
-![portfolio biography page](.Assets/Images/landing-page.PNG)
+![portfolio biography page](Assets/Images/landing-page.PNG)
 
 ### Biography Page
-![portfolio biography page](.Assets/Images/landing-page.PNG)
-![portfolio landing page 1](.Assets/Images/bio-page.PNG)
-![portfolio landing page 2](.Assets/Images/bio-page-two.PNG)
+![portfolio biography page](Assets/Images/landing-page.PNG)
+![portfolio landing page 1](Assets/Images/bio-page.PNG)
+![portfolio landing page 2](Assets/Images/bio-page-two.PNG)
 
 ### Portfolio Page
-![portfolio work page](.Assets/Images/portfolio-page.PNG)
+![portfolio work page](Assets/Images/portfolio-page.PNG)
 
 ### Contact Page
-![portfolio contact page](.Assets/Images/contact-page.PNG)
+![portfolio contact page](Assets/Images/contact-page.PNG)
 
 ### License
 Open Source Initiative - MIT License
