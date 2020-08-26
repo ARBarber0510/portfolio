@@ -119,6 +119,11 @@ h2 {
 form {
     margin: 0px;
     padding: 30px 200px;
+    float: left;
+}
+
+#email-textarea {
+    width: 500px;
 }
 
 .footer {
