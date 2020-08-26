@@ -1,9 +1,8 @@
-# alison
+# Alison Barber Portfolio and Resume
 
-# HW2 - Responsive Portfolio
+# Introduction
 
-This is the portfolio for Alison Barber. It includes a brief bio, personal images, and contact information. 
-What this site includes, is listed below. 
+This is the dynamic portfolio and resume for Alison Barber. It includes contact information, professional and educational history, and a collection of successful projects. 
 
 Deployed link: https://arbarber0510.github.io/portfolio/
 

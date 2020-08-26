@@ -117,7 +117,8 @@ h2 {
 }
 
 form {
-    margin: 0px 20px;
+    margin: 0px;
+    padding: 30px 200px;
 }
 
 .footer {
