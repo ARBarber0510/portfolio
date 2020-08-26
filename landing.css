@@ -24,15 +24,41 @@ body {
     background: url("Assets/Images/forest-fog.jpg");
     height: 100%;
     display: block;
+    text-align: center;
 }
+
+.all {
+    max-width: 1050px; 
+    height: 1000px;
+	margin: 200px auto; 
+	float: center;
+}
+
 .jumbotron {
     color: #FAF9EF;
-    background: rgba(9, 49, 48, 0.7);
+    background: rgba(9, 49, 48, 1.0);
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
     height: 45vh;
     margin-bottom: 0;
     max-width: 100%;
     height: auto;
+}
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bolder;
+    color: #cae6e0;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    font-size: 48px;
+    padding: 20px; 
+}
+h2 {
+    color: #89aca4;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+.btn {
+    align-content: center;
 }

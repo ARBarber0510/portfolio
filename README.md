@@ -1,11 +1,11 @@
-# responsiveportfoliohw
+# alison
 
 # HW2 - Responsive Portfolio
 
 This is the portfolio for Alison Barber. It includes a brief bio, personal images, and contact information. 
 What this site includes, is listed below. 
 
-Deployed link: https://arbarber0510.github.io/responsiveportfoliohw/
+Deployed link: https://arbarber0510.github.io/portfolio/
 
 
 
